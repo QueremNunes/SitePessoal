@@ -4,17 +4,26 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap');
+
 
 body {
     background-color: #d9d9d9;
     text-align: center;
+    margin-left: 10px;
+    margin-right: 10px;
 
 }
 
+::-webkit-scrollbar {
+    display: none;
+}
+
 h1 {
-    font-family: "Open Sans", sans-serif;
-    font-weight: bolder;
+    /*font-family: "Open Sans", sans-serif;*/
+    font-family:  "Source Sans 3", sans-serif; 
     font-size: 20px;
+    font-weight: 400;
 }
 
 header > img {
@@ -40,6 +49,8 @@ section {
     border-radius: 20px ;
     padding: 5px;
     margin: 10px;
+    
+
 }
 
 section > img#image1 {
@@ -62,10 +73,38 @@ ul > li {
  text-align: left;
 }
 
-main > img {
-    width: 100px;
+
+main {
+    background-color: white;
+    border-radius: 10px ;
+    padding: 5px;
+    margin-top: 30px;
+    padding-bottom: 20px;
 }
 
-iframe {
-    width: 100px;
+h1.exemplos {
+    background-color: #d9d9d9;
+    border-radius: 10px ;
+    padding: 5px;
+    margin-top: 30px;
+}
+
+
+
+main > img, video, a {
+    width: 200px;
+}
+
+a {
+    font-family: "Montserrat", sans-serif;
+    color: black;
+}
+
+div > h1 {
+    margin-bottom: 40px;
+    
+}
+div > p > a > img {
+    width: 20px;
+    margin-top: 10px ;
 }
