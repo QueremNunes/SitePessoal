@@ -108,10 +108,11 @@ div, p {
     text-align: center;
 }
 div > h1 {
-    margin-bottom: 20px;
+    margin-bottom: 40px;
     
 }
 div > p > a > img {
     width: 20px;
-    margin-top: 10px ;
+    box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.251);
+    border-radius: 10px;
 }
