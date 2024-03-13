@@ -23,7 +23,14 @@ header > img {
     box-shadow: 3px 3px 3px 3px rgba(0, 0, 0, 0.11);
 }
 
-p, ul{
+p {
+    font-family: "Montserrat", sans-serif;
+    text-align: justify;
+    position: relative;
+    bottom: 30px;
+}
+
+ul {
     font-family: "Montserrat", sans-serif;
     text-align: justify;
 }
@@ -35,7 +42,26 @@ section {
     margin: 10px;
 }
 
+section > img#image1 {
+    width: 130px;
+    border-radius: 100px 100px;
+    position: relative;
+    right: 100px;
+    top: 10px;
+    
+}
+
+section > h1#primeiro {
+    position: relative;
+    left: 65px;
+    bottom: 75px;
+}
+
 ul > li {
  /*list-style: none;*/
  text-align: left;
+}
+
+iframe {
+    width: 100px;
 }
